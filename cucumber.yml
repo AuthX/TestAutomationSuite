@@ -1,0 +1,5 @@
+#Add More profiles here:
+
+qa:  FIG_NEWTON_FILE=qa.yml --color --format pretty
+dev:  FIG_NEWTON_FILE=dev.yml --color --format pretty
+test: FIG_NEWTON_FILE=default.yml --color --format pretty

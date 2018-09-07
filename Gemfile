@@ -1,0 +1,18 @@
+source "https://rubygems.org"
+
+gem 'nokogiri'
+gem 'page-object'
+gem 'cucumber'
+gem 'rspec'
+gem 'ffi'
+gem 'watir'
+gem 'selenium-webdriver'
+gem 'headless'
+gem 'titleize'
+gem 'json'
+gem 'gherkin'
+gem 'syntax'
+gem 'rspec'
+gem 'rake'
+gem 'fig_newton'
+gem 'debase'
