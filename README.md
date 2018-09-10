@@ -3,85 +3,85 @@
 
 **Getting your machine and IntelliJ configured: (this is assuming intellij is already installed)**
 
-1.	Install Homebrew (skip if already installed)
+1.	Install **Homebrew** (skip if already installed)
 
-    Run the following in a Terminal:
+    Run the following in a **Terminal**:
 
          /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
-2.	Install Latest version of Ruby
+2.	Install Latest version of **Ruby**
 
-    Run the following in a Terminal:
+    Run the following in a **Terminal**:
 
         $ brew install ruby
 
 
-3.	Install Selenium drivers for Browsers
+3.	Install **Selenium drivers** for Browsers
 
-    Run the following commands in a Terminal:
+    Run the following commands in a **Terminal**:
 
         $ brew tap homebrew/cask
         $ brew cask install chromedriver
         $ brew install geckodriver
 
 
-4.	Add Ruby Language Plugin to IntelliJ
+4.	Add **Ruby Language Plugin** to IntelliJ
 
-    -	Open IntelliJ
-    -	In the Settings/Preferences dialog (⌘,) click Plugins. 
-    -	Click Install JetBrains plugin
-    -	Scroll down and select “Ruby”
+    -	Open **IntelliJ**
+    -	In the **Settings/Preferences** dialog (⌘,) click **Plugins**. 
+    -	Click **Install JetBrains plugin**
+    -	Scroll down and select **“Ruby”**
     -	Confirm your intention to download and install the selected plugin.
-    -	Click Close.
-    -	Click OK in the Settings dialog and restart IntelliJ IDEA for the changes to take effect.
+    -	Click **Close**.
+    -	Click **OK** in the Settings dialog and restart IntelliJ IDEA for the changes to take effect.
 
 
 **Cloning the Github Repo and setting up the project in IntelliJ:**
 
-1.  Prerequisites:
+1.  **Prerequisites:**
     - Have a Github Account 
     - Have access to the Authentic Github Repo. (https://github.com/AuthX)
-    - Check if you have Git installed: Open a terminal and run the command:  git –version 
-    The terminal should print “git version 2.1x.xx”. If not, then install the latest version of Git using the following         command:
+    - Check if you have **Git** installed: Open a terminal and run the command:  git –version 
+      The terminal should print “git version 2.1x.xx”. If not, then install the latest version of Git using the following         command:
     ``` $ brew install git```
                                     
-2. Add Github Account to Intellij:
-    - In IntelliJ IDEA select Preferences
-    - Expand Version Control dropdown
-    - Select GitHub
-    - Click (+) and enter your Github Account login credentials. 
+2. Add **Github Account** to Intellij:
+    - In IntelliJ IDEA select **Preferences**
+    - Expand **Version Control** dropdown
+    - Select **GitHub**
+    - Click **(+)** and enter your **Github Account login credentials**. 
 
-3. Checkout from version control: 
-    -	Make sure you are signed in to GitHub and navigate to the following link: 
-    ```https://github.com/AuthX/TestAutomationSuite```
-    -	Click the “Clone or Download” Button and copy the URL that appears
-    -	Open IntelliJ and in the VCS menu select “Checkout from Version Control”
-    -	Select “Git” and Paste in the URL you just copied
+3. **Checkout from version control**: 
+    -	Make sure you are signed in to GitHub and **navigate** to the following link: 
+        ```https://github.com/AuthX/TestAutomationSuite```
+    -	Click the **“Clone or Download”** Button and **copy the URL** that appears
+    -	Open **IntelliJ** and in the **VCS** menu select **“Checkout from Version Control”**
+    -	Select **“Git”** and **Paste** in the URL you just copied
     -	Set appropriate directory to save the project
-    -	Click the “Clone” button
-    -	Click “Yes” on the “Would you like to create an IntelliJ project” Dialog Box.
-    -	Click “Next” button
-    -	Update the “Project name” field to reflect an appropriate name for your project
-    -	Make sure the “Project Location” is a location you are happy with
-    -	“Project Format” Should be “.idea”
-    -	Click “Next” button
-    -	Make sure the tick box next to your project directory is selected and click “Next”
-    -	Click “Finish” button
-    -	Click “New Window” button
+    -	Click the **“Clone”** button
+    -	Click **“Yes”** on the “Would you like to create an IntelliJ project” Dialog Box.
+    -	Click **“Next”** button
+    -	Update the **“Project name”** field to reflect an appropriate name for your project
+    -	Make sure the **“Project Location”** is a location you are happy with
+    -	**“Project Format”** Should be “.idea”
+    -	Click **“Next”** button
+    -	Make sure the **tick box** next to your project directory is selected and click “Next”
+    -	Click **“Finish”** button
+    -	Click **“New Window”** button
 
 **Installing Gems and adding Ruby SDK to Project:**
 
-1.	Adding Ruby SDK to project:
-    -	In File/Project Structure make sure your Ruby SDK is listed under SDKs. If it is not, click the (+) icon and select       the directory the SDK is located.
-    -	Select the Project tab and under the Project SDK dropdown select your Ruby SDK and press Apply
-    -	Ignore the error pop up and close it and the Project Structure window
+1.	Adding **Ruby SDK** to project:
+    -	In **File/Project Structure** make sure your **Ruby SDK** is listed under **SDKs**. If it is not, click the **(+)**         icon and select the directory the SDK is located.
+    -	Select the **Project** tab and under the **Project SDK** dropdown select your **Ruby SDK** and press **Apply**
+    -	Ignore the error pop up and **close** it and the Project Structure window
     
-2.	Install required Ruby Gems:
-    -	In the intelliJ terminal run the following command: gem install bundler
-    -	Under Tools menu select Bundler/Install
-    -	Tick the “run with sudo” check box and click “Install”
-    -	Enter your machine password and click “Ok”
+2.	Install required **Ruby Gems**:
+    -	In the **intelliJ terminal** run the following command: ```gem install bundler```
+    -	Under **Tools** menu select **Bundler/Install**
+    -	Tick the **“run with sudo”** check box and click **“Install”**
+    -	Enter your machine password and click **“Ok”**
 
 Capabilities added to date:
 -	Cucumber Framework for easier traceability and understanding of tests.
